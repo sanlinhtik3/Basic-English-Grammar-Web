@@ -7,7 +7,7 @@ import RightSide from "./RightSide";
 const Master = () => {
     return (
       <Fragment>
-        <div className="container mx-auto prose prose-sm lg:prose-lg max-w-full lg:px-32">
+        <div className="container mx-auto prose prose-sm lg:prose-lg max-w-full lg:px-32 font-sans">
           <NavBar />
           <div className="flex justify-between h-screen">
             {/* Aside */}
