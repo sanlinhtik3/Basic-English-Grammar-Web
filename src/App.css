@@ -1,2 +1,20 @@
 /* @import url('https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.1.0/github-markdown-light.min.css') */
 /* @import url('https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.1.0/github-markdown.min.css') */
+
+@font-face {
+  font-family: "mm";
+  src: url("./assets/Fonts/Z06-Walone/Z06-Walone-Regular.ttf");
+  font-display: fallback;
+}
+
+/* Markdown */
+.markdown-body .highlight pre, .markdown-body pre  {
+  background-color: var(--tw-prose-pre-bg)!important;
+}
+
+/* Highlight */
+.shl {
+  padding: 0!important;
+  background: transparent!important;
+  margin: 0!important;
+}
