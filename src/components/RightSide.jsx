@@ -3,7 +3,7 @@ import { Fragment } from "react"
 const RightSide = () => {
     return (
       <Fragment>
-        <div className=" w-10/12 lg:w-2/12 lg:px-5 fixed lg:static top-0 -right-full">
+        <div className="w-10/12 md:hidden lg:w-2/12 lg:px-5 fixed lg:static top-0 -right-full">
           <ul>
             <li>Basic</li>
             <li>Elementary</li>
